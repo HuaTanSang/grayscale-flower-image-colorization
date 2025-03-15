@@ -150,7 +150,7 @@ def main(checkpoint_dir, train_dir, val_dir, test_dir):
                 os.path.join(checkpoint_dir, "best_model.pth")
             )
 
-        if exit_train or epoch == 2:
+        if exit_train or epoch == 50:
             break
 
         epoch += 1

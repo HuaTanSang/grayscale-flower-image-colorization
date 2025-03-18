@@ -9,8 +9,9 @@ This project focuses on colorizing grayscale flower images using UNet++, a power
 - **Supports Custom Datasets**: Easily adaptable to different flower image datasets.
 - **PyTorch-based Implementation**: Built using PyTorch for flexibility and efficiency.
 
-## 📂 Dataset
-The dataset consists of:
+## 📂 Dataset  
+The dataset is Oxford 102 Flower  
+The dataset was customized that consists of:
 - **Grayscale Images**: Input images converted to grayscale.
 - **RGB Ground Truth**: The original colored images used as the reference for training.
 
@@ -21,8 +22,8 @@ The project employs **UNet++**, an advanced version of the original UNet model w
 ## 🚀 Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/HuaTanSang/flower-colorization-using-unet-
-   cd flower-colorization-using-unet-
+   git clone https://github.com/HuaTanSang/grayscale-flower-image-colorization.git
+   cd grayscale-flower-image-colorization
    ```
 2. Ensure that the dataset is correctly placed in the `dataset/` directory.
 

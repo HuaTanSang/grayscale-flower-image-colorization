@@ -38,11 +38,6 @@ The training process includes:
 - Implementing early stopping based on SSIM scores.
 - Saving model checkpoints during training.
 
-## 🔍 Inference
-To perform colorization on a grayscale image:
-```sh
-python inference.py --input path/to/grayscale/image.png --output path/to/save/colorized/image.png
-```
 
 ## 📊 Evaluation
 The model is evaluated using:
